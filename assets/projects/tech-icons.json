@@ -1,0 +1,18 @@
+{
+  "Python": "python.svg",
+  "NumPy": "numpy.svg",
+  "Pandas": "pandas.svg",
+  "SciPy": "scipy.svg",
+  "Matplotlib": "matplotlib.svg",
+  "scikit-learn": "scikit-learn.svg",
+  "TensorFlow": "tensorflow.svg",
+  "Keras": "keras.svg",
+  "PyTorch": "pytorch.svg",
+  "OpenCV": "opencv.svg",
+  "PostgreSQL": "postgresql.svg",
+  "SQL": "sql.svg",
+  "Docker": "docker.svg",
+  "Jupyter": "jupyter.svg",
+  "Astropy": "astropy.svg",
+  "JSONL": "jsonl.svg"
+}

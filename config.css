@@ -1,0 +1,117 @@
+/* config.css
+   Design tokens (colors, effects, shadows, radii)
+*/
+
+:root{
+  /* Base */
+  --bg: #f7f8fc;
+  --bg-2: #fbfcff;
+  --panel: #ffffff;
+
+  /* Text */
+  --text: rgba(15, 23, 42, 0.92);
+  --muted: rgba(15, 23, 42, 0.68);
+  --muted-2: rgba(15, 23, 42, 0.52);
+
+  /* Brand */
+  --brand: #1d4ed8;     /* blue-700 */
+  --brand-2: #2563eb;   /* blue-600 */
+
+  /* Borders */
+  --border: rgba(15, 23, 42, 0.10);
+  --border-strong: rgba(15, 23, 42, 0.16);
+  --border-soft: rgba(15, 23, 42, 0.06);
+  --tag-border: rgba(15, 23, 42, 0.12);
+  --tech-border: rgba(15, 23, 42, 0.14);
+
+  /* Surfaces (glass) */
+  --surface-home: rgba(255, 255, 255, 0.60);
+  --surface-navbar: rgba(255, 255, 255, 0.75);
+  --surface-card: rgba(255, 255, 255, 0.86);
+  --surface-pill: rgba(255, 255, 255, 0.88);
+  --surface-pill-hover: rgba(255, 255, 255, 0.96);
+
+  --surface-btn-secondary: rgba(255, 255, 255, 0.85);
+  --surface-btn-secondary-hover: rgba(255, 255, 255, 0.95);
+
+  --surface-btn-ghost: rgba(255, 255, 255, 0.75);
+  --surface-btn-ghost-hover: rgba(255, 255, 255, 0.95);
+
+  --surface-chip: rgba(255, 255, 255, 0.65);
+  --surface-chip-hover: rgba(255, 255, 255, 0.92);
+
+  --surface-tag: rgba(255, 255, 255, 0.70);
+  --surface-tech-pill: rgba(255, 255, 255, 0.72);
+
+  --surface-footer: rgba(255, 255, 255, 0.55);
+  --surface-closing-a: rgba(255, 255, 255, 0.85);
+  --surface-closing-b: rgba(255, 255, 255, 0.95);
+
+  /* Brand-tinted surfaces */
+  --surface-viewall-bg: rgba(37, 99, 235, 0.06);
+  --surface-viewall-bg-hover: rgba(37, 99, 235, 0.10);
+  --surface-viewall-border: rgba(37, 99, 235, 0.18);
+  --surface-viewall-border-hover: rgba(37, 99, 235, 0.26);
+
+  --chip-active-bg: rgba(37, 99, 235, 0.10);
+  --chip-active-border: rgba(37, 99, 235, 0.22);
+
+  /* Effects */
+  --blur-6: blur(6px);
+  --blur-10: blur(10px);
+
+  /* Shadows */
+  --shadow: 0 18px 50px rgba(2, 6, 23, 0.10);
+  --shadow-soft: 0 10px 24px rgba(2, 6, 23, 0.08);
+  --shadow-float: 0 12px 28px rgba(2, 6, 23, 0.10);
+
+  /* Brand shadows */
+  --shadow-brand: 0 12px 28px rgba(37, 99, 235, 0.22);
+  --shadow-brand-hover: 0 16px 34px rgba(37, 99, 235, 0.28);
+  --shadow-profile: 0 20px 50px rgba(37, 99, 235, 0.18);
+
+  /* Rings */
+  --ring: 0 0 0 4px rgba(37, 99, 235, 0.18);
+
+  /* Gradients / background glows */
+  --glow-1: rgba(37, 99, 235, 0.14);
+  --glow-2: rgba(59, 130, 246, 0.10);
+  --glow-3: rgba(29, 78, 216, 0.10);
+
+  /* Buttons */
+  --btn-primary-border: rgba(37, 99, 235, 0.35);
+
+  /* Carousel arrows */
+  --carousel-arrow-bg: rgba(255, 255, 255, 0.90);
+  --carousel-arrow-bg-hover: rgba(255, 255, 255, 0.98);
+  --carousel-arrow-text: rgba(15, 23, 42, 0.78);
+  --carousel-arrow-border-hover: var(--brand);
+  --carousel-arrow-color-hover: var(--brand);
+  --carousel-arrow-ring-hover: 0 0 0 3px rgba(37, 99, 235, 0.15);
+
+  /* Copy states */
+  --copy-dot: rgba(15, 23, 42, 0.25);
+
+  --success-border: rgba(22, 163, 74, 0.30);
+  --success-bg: rgba(22, 163, 74, 0.08);
+  --success-text: rgba(22, 163, 74, 0.95);
+  --success-dot: rgba(22, 163, 74, 0.85);
+
+  /* Misc */
+  --tech-icon-opacity: 0.92;
+  --tech-icon-opacity-hover: 1;
+
+  --footer-tech-opacity: 0.9;
+  --footer-tech-icon-opacity: 0.85;
+  --footer-tech-icon-opacity-hover: 1;
+
+  /* Radius */
+  --radius-10: 10px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-18: 18px;
+  --radius-pill: 999px;
+
+  /* Profile */
+  --profile-border: rgba(37, 99, 235, 0.18);
+}

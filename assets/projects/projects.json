@@ -1,0 +1,180 @@
+{
+  "projects": [
+    {
+      "project-name": "FilinGPT",
+      "project-nickname": "filingpt",
+      "project-content": {
+        "description": "Financial domain language model trained on SEC 10-K filings, built from scratch in Python using NumPy. Designed as an end-to-end machine learning system including ETL extraction, dataset construction, tokenization, batching, neural network training, evaluation, and text generation within a modular and Dockerized architecture.",
+        "techs": ["Python", "NumPy", "Docker", "JSONL"],
+        "skills": [
+          "Language Modeling",
+          "Neural Network Training",
+          "Model Evaluation",
+          "Optimization",
+          "ETL Pipeline Design",
+          "Dataset Construction",
+          "Data Layering (Bronze/Silver/Gold)",
+          "Reproducible ML Workflows",
+          "Financial NLP"
+        ],
+        "category": "ml",
+        "github-link": "https://github.com/costakevinn/FilinGPT"
+      }
+    },
+    {
+      "project-name": "ProbNN",
+      "project-nickname": "probnn",
+      "project-content": {
+        "description": "Probabilistic neural network for regression with heteroscedastic uncertainty estimation using a Gaussian negative log-likelihood objective. Implements fully differentiable training with backpropagation and likelihood-based optimization.",
+        "techs": ["Python", "NumPy", "Matplotlib"],
+        "skills": [
+          "Probabilistic Modeling",
+          "Supervised Learning (Regression)",
+          "Heteroscedastic Regression",
+          "Negative Log-Likelihood Optimization",
+          "Backpropagation",
+          "Uncertainty Quantification",
+          "Model Diagnostics"
+        ],
+        "category": "ml",
+        "github-link": "https://github.com/costakevinn/ProbNN"
+      }
+    },
+    {
+      "project-name": "GPredict",
+      "project-nickname": "gpredict",
+      "project-content": {
+        "description": "Gaussian Process regression framework for probabilistic forecasting and uncertainty-aware predictive modeling. Supports kernel methods, posterior inference, and reproducible statistical evaluation workflows.",
+        "techs": ["Python", "NumPy", "SciPy", "Matplotlib"],
+        "skills": [
+          "Gaussian Process Regression",
+          "Kernel Methods",
+          "Bayesian Inference",
+          "Posterior Inference",
+          "Probabilistic Forecasting",
+          "Uncertainty Modeling",
+          "Statistical Modeling"
+        ],
+        "category": "ml",
+        "github-link": "https://github.com/costakevinn/GPredict"
+      }
+    },
+    {
+      "project-name": "Probabilistic ML Thesis",
+      "project-nickname": "thesis",
+      "project-content": {
+        "description": "End-to-end probabilistic machine learning pipeline for modeling noisy real-world datasets using Neural Networks, Gaussian Processes, Bayesian inference, and MCMC sampling. Implemented with TensorFlow, PyTorch, and scientific Python libraries following industry-standard model training and validation practices.",
+        "techs": ["Python", "NumPy", "SciPy", "Matplotlib", "TensorFlow", "Keras", "PyTorch"],
+        "skills": [
+          "Probabilistic Modeling",
+          "Supervised Learning (Regression)",
+          "Gaussian Process Regression",
+          "Bayesian Inference",
+          "MCMC Sampling",
+          "Uncertainty Quantification",
+          "Model Training & Evaluation",
+          "Statistical Modeling",
+          "Experiment Diagnostics"
+        ],
+        "category": "ml",
+        "github-link": "https://github.com/costakevinn/probabilistic-ml-thesis"
+      }
+    },
+    {
+      "project-name": "ParamInsight",
+      "project-nickname": "paraminsight",
+      "project-content": {
+        "description": "Bayesian parameter estimation tool using Metropolis–Hastings MCMC for posterior inference and uncertainty quantification in statistical models with heteroscedastic noise.",
+        "techs": ["Python", "NumPy", "Matplotlib"],
+        "skills": [
+          "Bayesian Inference",
+          "MCMC Sampling",
+          "Likelihood Modeling",
+          "Posterior Sampling",
+          "Uncertainty Quantification",
+          "Statistical Diagnostics"
+        ],
+        "category": "ml",
+        "github-link": "https://github.com/costakevinn/ParamInsight"
+      }
+    },
+    {
+      "project-name": "OptLearn",
+      "project-nickname": "optlearn",
+      "project-content": {
+        "description": "Numerical optimization framework implementing Gradient Descent, Momentum, RMSProp, and Adam for machine learning and neural network training. Includes convergence analysis, regularization, and reproducible experiment tracking.",
+        "techs": ["Python", "NumPy", "Matplotlib"],
+        "skills": [
+          "Gradient-Based Optimization",
+          "Stochastic Gradient Descent",
+          "Adam Optimizer",
+          "Convergence Analysis",
+          "Learning Rate Scheduling",
+          "Numerical Optimization",
+          "Training Dynamics"
+        ],
+        "category": "ml",
+        "github-link": "https://github.com/costakevinn/OptLearn"
+      }
+    },
+    {
+      "project-name": "ChinookAnalytics",
+      "project-nickname": "chinook",
+      "project-content": {
+        "description": "End-to-end analytical data platform built in PostgreSQL implementing a layered stg → core → marts architecture with automated validation and revenue reconciliation. Designed following analytics engineering and production data modeling principles.",
+        "techs": ["PostgreSQL", "SQL", "Docker"],
+        "skills": [
+          "Analytics Engineering",
+          "Data Modeling",
+          "ETL/ELT Pipelines",
+          "Data Validation",
+          "Revenue Reconciliation",
+          "Dimensional Modeling",
+          "Business Intelligence",
+          "Data Quality Enforcement"
+        ],
+        "category": "data",
+        "github-link": "https://github.com/costakevinn/ChinookAnalytics"
+      }
+    },
+    {
+      "project-name": "RetailSQL",
+      "project-nickname": "retailsql",
+      "project-content": {
+        "description": "Relational data platform modeling retail business processes using normalized schema design and strict integrity enforcement. Implements production-style database architecture with constraints, indexing strategies, and deterministic seeding.",
+        "techs": ["PostgreSQL", "SQL", "Docker"],
+        "skills": [
+          "Relational Data Modeling",
+          "Schema Design",
+          "Database Architecture",
+          "Data Integrity Enforcement",
+          "Constraint-Based Validation",
+          "Indexing Strategy",
+          "SQL Optimization"
+        ],
+        "category": "data",
+        "github-link": "https://github.com/costakevinn/RetailSQL"
+      }
+    },
+    {
+      "project-name": "Time-Series Distance Estimation",
+      "project-nickname": "time_series",
+      "project-content": {
+        "description": "Large-scale irregular time series processing and regression pipeline using Lomb–Scargle period detection, feature engineering, supervised learning, and benchmarking against external reference datasets. Implements full data preprocessing, validation, and reproducible notebook-based experimentation.",
+        "techs": ["Python", "NumPy", "Pandas", "SciPy", "Astropy", "scikit-learn", "OpenCV", "Matplotlib", "Jupyter"],
+        "skills": [
+          "Time Series Analysis",
+          "Feature Engineering",
+          "Supervised Learning",
+          "Regression Modeling",
+          "Statistical Validation",
+          "Data Preprocessing",
+          "Signal Processing",
+          "Benchmarking"
+        ],
+        "category": "data",
+        "github-link": "https://github.com/costakevinn/time-series-distance-estimation"
+      }
+    }
+  ]
+}

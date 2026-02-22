@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kevin Mota da Costa — Machine Learning & Data projects portfolio." />
+  <meta property="og:title" content="Kevin Mota da Costa | Machine Learning & Data" />
+  <meta property="og:description" content="Production-style ML and data engineering projects focused on real-world systems." />
+  <meta property="og:image" content="/assets/img/profile.jpg" />
+  <meta property="og:type" content="website" />
+
+
+
+  <title>Kevin Costa | Portfolio</title>
+
+  <!-- 👇 COLOQUE AQUI -->
+  <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/img/favicon.png">
+
+  <!-- depois vem os CSS -->
+  <link rel="stylesheet" href="/config.css" />
+  <link rel="stylesheet" href="/style.css" />
+
+  <script src="/script.js" defer></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="/" class="logo active">Kevin Costa</a>
+
+      <nav class="nav-links">
+        <a href="/pages/projects.html">Projects</a>
+        <a href="/pages/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="home">
+
+    <!-- HERO -->
+    <section class="hero-profile">
+      <div class="container profile-container">
+
+        <div class="profile-image-wrapper">
+          <img src="/assets/img/profile.jpg" alt="Kevin Costa" class="profile-image">
+        </div>
+
+        <div class="profile-info">
+          <h1 class="profile-name">Kevin Mota da Costa</h1>
+          <p class="profile-role">Machine Learning & Data Professional</p>
+          <p class="profile-location">Vitória–ES, Brazil</p>
+
+          <!-- Social pills with icons -->
+          <div class="social-row">
+            <a class="social-pill" href="https://www.linkedin.com/in/costakevinnn/" target="_blank" rel="noopener noreferrer">
+              <img class="social-icon" src="/assets/icons/social/linkedin.svg" alt="LinkedIn" />
+              <span>LinkedIn</span>
+            </a>
+
+            <a class="social-pill" href="https://github.com/costakevinn" target="_blank" rel="noopener noreferrer">
+              <img class="social-icon" src="/assets/icons/social/github.svg" alt="GitHub" />
+              <span>GitHub</span>
+            </a>
+
+            <a class="social-pill" href="mailto:costakevinn.ml@gmail.com">
+              <img class="social-icon" src="/assets/icons/social/gmail.svg" alt="Email" />
+              <span>Email</span>
+            </a>
+
+            <button class="social-pill copy-pill" type="button" data-copy="costakevinn.ml@gmail.com" aria-label="Copy email">
+              <span class="copy-dot" aria-hidden="true"></span>
+              <span class="copy-text">Copy email</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ML PROJECTS -->
+    <section class="home-section container">
+      <div class="home-section-head">
+        <div>
+          <h2 class="home-section-title">Machine Learning Projects</h2>
+          <p class="home-section-subtitle">Machine learning systems, supervised learning, neural networks, predictive modeling, and end-to-end ML pipelines.</p>
+        </div>
+
+        <a class="view-all" href="/pages/projects.html">View all</a>
+      </div>
+
+      <div class="carousel">
+        <button class="carousel-btn left" id="ml-prev" aria-label="Previous ML projects" type="button">‹</button>
+
+        <div class="carousel-viewport" id="ml-carousel" aria-label="Machine Learning projects carousel">
+          <!-- injected by script.js -->
+        </div>
+
+        <button class="carousel-btn right" id="ml-next" aria-label="Next ML projects" type="button">›</button>
+      </div>
+    </section>
+
+    <!-- DATA PROJECTS -->
+    <section class="home-section container">
+      <div class="home-section-head">
+        <div>
+          <h2 class="home-section-title">Data Projects</h2>
+          <p class="home-section-subtitle">SQL, data engineering, ETL pipelines, data modeling, analytics engineering, and business intelligence solutions.</p>
+        </div>
+
+        <a class="view-all" href="/pages/projects.html">View all</a>
+      </div>
+
+      <div class="carousel">
+        <button class="carousel-btn left" id="data-prev" aria-label="Previous Data projects" type="button">‹</button>
+
+        <div class="carousel-viewport" id="data-carousel" aria-label="Data projects carousel">
+          <!-- injected by script.js -->
+        </div>
+
+        <button class="carousel-btn right" id="data-next" aria-label="Next Data projects" type="button">›</button>
+      </div>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="closing-section">
+      <div class="closing-container">
+          <h2 class="closing-title">Designing and building machine learning and data systems for real-world impact.</h2>
+          <p class="closing-text">
+            Feel free to connect to discuss production-ready solutions and technical challenges.
+          </p>
+
+        <div class="closing-actions">
+          <a href="/pages/contact.html" class="btn btn-primary">Contact</a>
+          <a href="/pages/projects.html" class="btn btn-secondary">Explore Projects</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Kevin Mota da Costa</p>
+      <div id="global-tech-stack" class="footer-tech-stack" aria-label="Tech stack"></div>
+    </div>
+  </footer>
+
+</body>
+</html>

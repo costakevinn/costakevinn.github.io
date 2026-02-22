@@ -1,0 +1,30 @@
+# Git
+.git
+.gitignore
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# Node / Python (se existir)
+node_modules
+dist
+build
+__pycache__
+*.pyc
+.venv
+venv
+
+# Logs
+*.log
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Large / misc
+*.zip
+*.tar
+*.tar.gz
