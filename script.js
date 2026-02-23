@@ -90,12 +90,30 @@ function renderTechBadges(techs, techIconMap) {
 /* =========================
    Card renderers
 ========================= */
-function renderProjectCard(project, techIconMap) {
+
+function renderSkillsPills(skills) {
+  const top = (skills || []).slice(0, 4); // ajuste: 3 ou 4 fica ótimo
+  if (!top.length) return "";
+
+  return `
+    <div class="project-skills" aria-label="Key skills">
+      <div class="skills-label">Key skills</div>
+      <div class="skills-row">
+        ${top.map((s) => `<span class="skill-pill">${escapeHTML(s)}</span>`).join("")}
+      </div>
+    </div>
+  `;
+}
+
+
+
+function renderProjectCard(project, techIconMap, showSkills = false) {
   const name = project["project-name"];
   const nick = project["project-nickname"];
   const content = project["project-content"];
   const desc = content.description;
   const techs = content.techs || [];
+  const skills = content.skills || [];
   const github = content["github-link"];
   const category = content.category;
 
@@ -126,6 +144,8 @@ function renderProjectCard(project, techIconMap) {
           ${renderTechBadges(techs, techIconMap)}
         </div>
 
+        ${showSkills ? renderSkillsPills(skills) : ""}
+
         <div class="project-actions">
           <a class="btn btn-ghost" href="${escapeHTML(github)}" target="_blank" rel="noopener noreferrer">
             View on GitHub
@@ -137,7 +157,7 @@ function renderProjectCard(project, techIconMap) {
 }
 
 function renderCarouselCard(project, techIconMap) {
-  const inner = renderProjectCard(project, techIconMap);
+  const inner = renderProjectCard(project, techIconMap, false);
   return inner.replace('class="project-card"', 'class="carousel-card"');
 }
 
@@ -163,11 +183,13 @@ async function renderProjectsPage() {
   const grid = document.getElementById("projects-grid");
   if (!grid) return;
 
-  const projectsData = await loadJSON("/assets/projects/projects.json");
-  const techIconMap = await loadJSON("/assets/projects/tech-icons.json");
+const [projectsData, techIconMap] = await Promise.all([
+  loadJSONCached("portfolio.projects.json", "/assets/projects/projects.json"),
+  loadJSONCached("portfolio.tech-icons.json", "/assets/projects/tech-icons.json"),
+]);
 
   grid.innerHTML = (projectsData.projects || [])
-    .map((p) => renderProjectCard(p, techIconMap))
+    .map((p) => renderProjectCard(p, techIconMap, true))
     .join("");
 
   const chips = Array.from(document.querySelectorAll(".chip"));
