@@ -53,7 +53,7 @@ All URLs are absolute (`/assets/...`), so the site must be served from the domai
 
 4. Every tech in `techs` must exist in `tech-icons.json` (section 4), otherwise it shows as a text pill.
 5. Run `python3 scripts/check_portfolio.py` (section 6) and preview locally.
-6. Optional: add the project to the "Selected Projects" list in `README.md` (manual, not generated).
+6. Run `python3 scripts/sync_readme.py` to regenerate the "Selected Projects" list in `README.md` from `projects.json` (so README and site never disagree).
 
 Real example to copy (from the current file): `filingpt`, `probnn`, `gpredict`, `thesis`, `time_series`,
 `paraminsight`, `optlearn`, `chinook`, `retailsql` (the last one has a `.jpeg` cover).

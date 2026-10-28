@@ -21,44 +21,44 @@ Develops predictive models and neural network systems, while building structured
 ### Machine Learning
 
 **FilinGPT**  
-Financial language model built from scratch in Python, combining neural network training with structured data pipelines.  
+End-to-end financial language modeling system for structured document processing, predictive text generation, and domain-specific NLP analysis.  
 → https://github.com/costakevinn/FilinGPT  
 
 **ProbNN**  
-Probabilistic regression model with predictive uncertainty estimation.  
+Probabilistic regression model designed to estimate predictive uncertainty and improve robustness in supervised learning tasks.  
 → https://github.com/costakevinn/ProbNN  
 
 **GPredict**  
-Gaussian Process framework for uncertainty-aware forecasting.  
+Gaussian Process framework for uncertainty-aware forecasting and Bayesian predictive modeling in time series applications.  
 → https://github.com/costakevinn/GPredict  
 
 **Probabilistic ML Thesis**  
-Applied probabilistic modeling and machine learning to real-world datasets.  
+Applied machine learning research project integrating probabilistic modeling and statistical validation for real-world predictive systems.  
 → https://github.com/costakevinn/probabilistic-ml-thesis  
 
-**ParamInsight**  
-Bayesian parameter estimation tool using MCMC sampling.  
-→ https://github.com/costakevinn/ParamInsight  
-
-**OptLearn**  
-Optimization engine implementing Gradient Descent, RMSProp, and Adam.  
-→ https://github.com/costakevinn/OptLearn  
+**Time-Series Distance Estimation**  
+Large-scale time series modeling project combining signal processing, regression analysis, and statistical validation for scientific data interpretation.  
+→ https://github.com/costakevinn/time-series-distance-estimation  
 
 ---
 
 ### Data & Analytics
 
+**ParamInsight**  
+Bayesian statistical inference tool for parameter estimation, posterior analysis, and uncertainty quantification.  
+→ https://github.com/costakevinn/ParamInsight  
+
+**OptLearn**  
+Numerical optimization framework for parameter estimation, convergence analysis, and benchmarking of gradient-based algorithms.  
+→ https://github.com/costakevinn/OptLearn  
+
 **ChinookAnalytics**  
-End-to-end SQL analytics platform with layered data modeling and ETL pipelines.  
+Analytics engineering project implementing layered data modeling, validation workflows, and business metric reconciliation in relational systems.  
 → https://github.com/costakevinn/ChinookAnalytics  
 
 **RetailSQL**  
-PostgreSQL architecture focused on schema normalization and data integrity.  
+Relational database architecture project focused on schema design, integrity enforcement, indexing strategies, and query optimization.  
 → https://github.com/costakevinn/RetailSQL  
-
-**Time-Series Distance Estimation**  
-Large-scale time series modeling and statistical signal analysis.  
-→ https://github.com/costakevinn/time-series-distance-estimation  
 
 ---
 
