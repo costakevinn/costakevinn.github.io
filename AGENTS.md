@@ -52,7 +52,7 @@ All URLs are absolute (`/assets/...`), so the site must be served from the domai
 ```
 
 4. Every tech in `techs` must exist in `tech-icons.json` (section 4), otherwise it shows as a text pill.
-5. Run `python3 scripts/check_portfolio.py` (section 6) and preview locally.
+5. Run `python3 scripts/check_portfolio.py` (section 7) and preview locally.
 6. Run `python3 scripts/sync_readme.py` to regenerate the "Selected Projects" list in `README.md` from `projects.json` (so README and site never disagree).
 
 Real example to copy (from the current file): `filingpt`, `probnn`, `gpredict`, `thesis`, `time_series`,
@@ -169,12 +169,46 @@ gray text pill and no footer icon, and the check script warns. That warning mean
 - Education logos: `assets/icons/edu/` (`ufes.png`, `ifes.svg`); styled grayscale in `style.css` (`.edu-logo`).
 - Favicon / profile: `assets/img/favicon.png`, `assets/img/profile.jpg` (also used as `og:image`).
 
-## 5. Style rules
+## 5. Edit, reorder or remove a project
+
+Everything is in `assets/projects/projects.json`. No HTML changes are needed for any of these.
+
+**Edit a project** (description, link, techs, skills, name): change the fields of its entry.
+Rules from sections 2-4 still apply (valid `category`, tech names identical to `tech-icons.json` keys,
+new tech = new icon + mapping).
+
+**Change its category** (`"ml"` <-> `"data"`): change only `category`. The card moves to the other home
+carousel and the tag changes. Then run `sync_readme.py` so the README moves it too.
+
+**Reorder**: move the entry inside the `projects` array. Home carousels keep the array order within each
+category; `pages/projects.html` shows the array order across all projects.
+
+**Change a cover image**: save the new file as `assets/projects/project-pics/<nickname>.png`.
+Lookup order is `.png`, then `.jpg`, then `.jpeg`, so an old `.png` hides a new `.jpg`/`.jpeg`:
+**delete the old file when the extension changes**. Hard refresh (Ctrl+Shift+R) to see it.
+
+**Rename a project's nickname**: also rename its cover file to the same new name, otherwise the cover disappears.
+(Changing only `project-name` is safe.)
+
+**Remove a project**:
+1. Delete its whole `{ ... }` block from the array (watch the commas: no comma after the last item).
+2. Delete its cover from `project-pics/`.
+3. Run `check_portfolio.py` and `sync_readme.py`.
+4. Technologies: nothing to do. If no other project uses a tech, its icon leaves the footer by itself.
+   The check script then warns "mapped but not used"; the mapping and icon file can stay for later, or be
+   deleted from `tech-icons.json` and `tech-icons-pics/` if you will not use them again.
+
+**JSON pitfalls**: double quotes only, no trailing comma, a missing comma between entries breaks the whole site
+(empty carousels and grid). `check_portfolio.py` reports invalid JSON with the line number.
+
+After any change: run the checks in the "Verify before every push" section, then commit and push.
+
+## 6. Style rules
 - Colors, shadows, radii, opacities: only in `config.css` as variables. `style.css` must use `var(--...)`.
 - Keep the site dependency-free: no framework, no build step, no npm.
 - Mobile matters: the carousel arrows are hidden below 640 px; cards use `flex-basis` percentages. Check at ~380 px.
 
-## 6. Verify before every push
+## 7. Verify before every push
 
 Run: `python3 scripts/check_portfolio.py` (stdlib only). It checks: valid JSON, required fields,
 `category` values, duplicate nicknames, `github-link` format, every tech has an icon mapping,
@@ -202,11 +236,11 @@ Checklist in the browser:
 - Expected, harmless 404s: a cover that is `.jpeg` (e.g. `retailsql`) first tries `.png` and `.jpg`, so the
   console shows 404s before it loads. Prefer `.png` for new covers to avoid the noise.
 
-## 7. Deploy
+## 8. Deploy
 `git add -A && git commit -m "Add <project>" && git push` to the branch GitHub Pages publishes
 (`main`; confirm in repo Settings -> Pages). Never commit secrets (`.env*`, keys).
 
-## 8. Notes for AI tools
+## 9. Notes for AI tools
 - Do not hand-write project cards into HTML; edit JSON only.
 - Do not invent technologies, links or metrics. Ask for the real repo URL and description.
 - Keep `category` to the exact allowed values; keep tech names identical to `tech-icons.json` keys.
