@@ -1,11 +1,38 @@
 {
   "projects": [
     {
+      "project-name": "VolumeVision",
+      "project-nickname": "volumevision",
+      "project-content": {
+        "description": "Real-time hand gesture recognition with computer vision: MediaPipe hand landmarks from a camera stream are mapped to a continuous control signal, with YAML configuration and Docker profiles for any camera.",
+        "techs": [
+          "Python",
+          "NumPy",
+          "OpenCV",
+          "MediaPipe",
+          "Docker"
+        ],
+        "skills": [
+          "Computer Vision",
+          "Real-Time Inference",
+          "Gesture Recognition",
+          "Feature Engineering"
+        ],
+        "github-link": "https://github.com/costakevinn/VolumeVision",
+        "category": "ml"
+      }
+    },
+    {
       "project-name": "FilinGPT",
       "project-nickname": "filingpt",
       "project-content": {
         "description": "End-to-end financial language modeling system for structured document processing, predictive text generation, and domain-specific NLP analysis.",
-        "techs": ["Python", "NumPy", "Docker", "JSONL"],
+        "techs": [
+          "Python",
+          "NumPy",
+          "Docker",
+          "JSONL"
+        ],
         "skills": [
           "Machine Learning",
           "Natural Language Processing (NLP)",
@@ -21,7 +48,11 @@
       "project-nickname": "probnn",
       "project-content": {
         "description": "Probabilistic regression model designed to estimate predictive uncertainty and improve robustness in supervised learning tasks.",
-        "techs": ["Python", "NumPy", "Matplotlib"],
+        "techs": [
+          "Python",
+          "NumPy",
+          "Matplotlib"
+        ],
         "skills": [
           "Machine Learning",
           "Probabilistic Modeling",
@@ -37,7 +68,12 @@
       "project-nickname": "gpredict",
       "project-content": {
         "description": "Gaussian Process framework for uncertainty-aware forecasting and Bayesian predictive modeling in time series applications.",
-        "techs": ["Python", "NumPy", "SciPy", "Matplotlib"],
+        "techs": [
+          "Python",
+          "NumPy",
+          "SciPy",
+          "Matplotlib"
+        ],
         "skills": [
           "Machine Learning",
           "Gaussian Processes",
@@ -53,7 +89,12 @@
       "project-nickname": "thesis",
       "project-content": {
         "description": "Applied machine learning research project integrating probabilistic modeling and statistical validation for real-world predictive systems.",
-        "techs": ["Python", "TensorFlow", "PyTorch", "SciPy"],
+        "techs": [
+          "Python",
+          "TensorFlow",
+          "PyTorch",
+          "SciPy"
+        ],
         "skills": [
           "Machine Learning",
           "Bayesian Modeling",
@@ -69,7 +110,13 @@
       "project-nickname": "time_series",
       "project-content": {
         "description": "Large-scale time series modeling project combining signal processing, regression analysis, and statistical validation for scientific data interpretation.",
-        "techs": ["Python", "Pandas", "SciPy", "Astropy", "scikit-learn"],
+        "techs": [
+          "Python",
+          "Pandas",
+          "SciPy",
+          "Astropy",
+          "scikit-learn"
+        ],
         "skills": [
           "Time Series Analysis",
           "Machine Learning",
@@ -85,7 +132,11 @@
       "project-nickname": "paraminsight",
       "project-content": {
         "description": "Bayesian statistical inference tool for parameter estimation, posterior analysis, and uncertainty quantification.",
-        "techs": ["Python", "NumPy", "Matplotlib"],
+        "techs": [
+          "Python",
+          "NumPy",
+          "Matplotlib"
+        ],
         "skills": [
           "Statistical Modeling",
           "Bayesian Inference",
@@ -101,7 +152,11 @@
       "project-nickname": "optlearn",
       "project-content": {
         "description": "Numerical optimization framework for parameter estimation, convergence analysis, and benchmarking of gradient-based algorithms.",
-        "techs": ["Python", "NumPy", "Matplotlib"],
+        "techs": [
+          "Python",
+          "NumPy",
+          "Matplotlib"
+        ],
         "skills": [
           "Numerical Optimization",
           "Gradient Descent",
@@ -117,7 +172,11 @@
       "project-nickname": "chinook",
       "project-content": {
         "description": "Analytics engineering project implementing layered data modeling, validation workflows, and business metric reconciliation in relational systems.",
-        "techs": ["PostgreSQL", "SQL", "Docker"],
+        "techs": [
+          "PostgreSQL",
+          "SQL",
+          "Docker"
+        ],
         "skills": [
           "Data Engineering",
           "SQL",
@@ -133,7 +192,11 @@
       "project-nickname": "retailsql",
       "project-content": {
         "description": "Relational database architecture project focused on schema design, integrity enforcement, indexing strategies, and query optimization.",
-        "techs": ["PostgreSQL", "SQL", "Docker"],
+        "techs": [
+          "PostgreSQL",
+          "SQL",
+          "Docker"
+        ],
         "skills": [
           "Database Design",
           "SQL Optimization",

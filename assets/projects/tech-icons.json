@@ -14,5 +14,6 @@
   "Docker": "docker.svg",
   "Jupyter": "jupyter.svg",
   "Astropy": "astropy.svg",
-  "JSONL": "jsonl.svg"
+  "JSONL": "jsonl.svg",
+  "MediaPipe": "mediapipe.svg"
 }
