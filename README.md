@@ -21,7 +21,7 @@ Develops predictive models and neural network systems, while building structured
 ### Machine Learning
 
 **VolumeVision**  
-Real-time hand gesture recognition with computer vision: MediaPipe hand landmarks from a camera stream are mapped to a continuous control signal, with YAML configuration and Docker profiles for any camera.  
+Real-time hand gesture recognition with computer vision: MediaPipe hand landmarks from a camera stream are mapped to a continuous control signal, containerized with Docker to run with any camera.  
 → https://github.com/costakevinn/VolumeVision  
 
 **FilinGPT**  

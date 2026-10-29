@@ -4,7 +4,7 @@
       "project-name": "VolumeVision",
       "project-nickname": "volumevision",
       "project-content": {
-        "description": "Real-time hand gesture recognition with computer vision: MediaPipe hand landmarks from a camera stream are mapped to a continuous control signal, with YAML configuration and Docker profiles for any camera.",
+        "description": "Real-time hand gesture recognition with computer vision: MediaPipe hand landmarks from a camera stream are mapped to a continuous control signal, containerized with Docker to run with any camera.",
         "techs": [
           "Python",
           "NumPy",
