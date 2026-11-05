@@ -206,6 +206,29 @@
         "category": "data",
         "github-link": "https://github.com/costakevinn/RetailSQL"
       }
+    },
+    {
+      "project-name": "ULBFraudXGB",
+      "project-nickname": "ulbfraudxgb",
+      "project-content": {
+        "description": "End-to-end credit card fraud detection: layered SQL pipeline in DuckDB, XGBoost model and a decision threshold chosen by business cost, delivered as a Python package with a command-line tool.",
+        "techs": [
+          "Python",
+          "SQL",
+          "Pandas",
+          "scikit-learn",
+          "Matplotlib",
+          "Docker"
+        ],
+        "skills": [
+          "Fraud Detection",
+          "Imbalanced Classification",
+          "Cost-Sensitive Learning",
+          "Model Evaluation"
+        ],
+        "category": "ml",
+        "github-link": "https://github.com/costakevinn/ULBFraudXGB"
+      }
     }
   ]
 }

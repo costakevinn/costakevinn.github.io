@@ -44,6 +44,10 @@ Applied machine learning research project integrating probabilistic modeling and
 Large-scale time series modeling project combining signal processing, regression analysis, and statistical validation for scientific data interpretation.  
 → https://github.com/costakevinn/time-series-distance-estimation  
 
+**ULBFraudXGB**  
+End-to-end credit card fraud detection: layered SQL pipeline in DuckDB, XGBoost model and a decision threshold chosen by business cost, delivered as a Python package with a command-line tool.  
+→ https://github.com/costakevinn/ULBFraudXGB  
+
 ---
 
 ### Data & Analytics
