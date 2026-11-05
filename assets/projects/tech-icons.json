@@ -15,5 +15,7 @@
   "Jupyter": "jupyter.svg",
   "Astropy": "astropy.svg",
   "JSONL": "jsonl.svg",
-  "MediaPipe": "mediapipe.svg"
+  "MediaPipe": "mediapipe.svg",
+  "DuckDB": "duckdb.svg",
+  "XGBoost": "xgboost.png"
 }

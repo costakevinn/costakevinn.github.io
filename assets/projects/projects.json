@@ -215,8 +215,10 @@
         "techs": [
           "Python",
           "SQL",
+          "DuckDB",
           "Pandas",
           "scikit-learn",
+          "XGBoost",
           "Matplotlib",
           "Docker"
         ],
