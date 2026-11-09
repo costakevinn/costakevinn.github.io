@@ -52,6 +52,10 @@ End-to-end credit card fraud detection: layered SQL pipeline in DuckDB, XGBoost 
 
 ### Data & Analytics
 
+**HireLLMe**  
+LLM-powered job triage pipeline: collects job alerts from Gmail and the Gupy search into bronze, silver and gold layers, triages each opening with any LLM against a candidate profile, and delivers one email per job, scheduled on GitHub Actions with no-loss error handling.  
+→ https://github.com/costakevinn/HireLLMe  
+
 **ParamInsight**  
 Bayesian statistical inference tool for parameter estimation, posterior analysis, and uncertainty quantification.  
 → https://github.com/costakevinn/ParamInsight  

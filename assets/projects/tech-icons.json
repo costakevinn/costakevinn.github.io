@@ -17,5 +17,8 @@
   "JSONL": "jsonl.svg",
   "MediaPipe": "mediapipe.svg",
   "DuckDB": "duckdb.svg",
-  "XGBoost": "xgboost.png"
+  "XGBoost": "xgboost.png",
+  "GitHub Actions": "github-actions.svg",
+  "Claude": "claude.svg",
+  "Gmail": "gmail.svg"
 }

@@ -1,6 +1,29 @@
 {
   "projects": [
     {
+      "project-name": "HireLLMe",
+      "project-nickname": "hirellme",
+      "project-content": {
+        "description": "LLM-powered job triage pipeline: collects job alerts from Gmail and the Gupy search into bronze, silver and gold layers, triages each opening with any LLM against a candidate profile, and delivers one email per job, scheduled on GitHub Actions with no-loss error handling.",
+        "techs": [
+          "Python",
+          "Claude",
+          "Docker",
+          "GitHub Actions",
+          "Gmail",
+          "JSONL"
+        ],
+        "skills": [
+          "LLM Engineering",
+          "Data Pipeline Engineering",
+          "ETL / ELT",
+          "Workflow Orchestration"
+        ],
+        "github-link": "https://github.com/costakevinn/HireLLMe",
+        "category": "data"
+      }
+    },
+    {
       "project-name": "VolumeVision",
       "project-nickname": "volumevision",
       "project-content": {
