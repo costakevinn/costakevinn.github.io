@@ -72,6 +72,10 @@ Analytics engineering project implementing layered data modeling, validation wor
 Relational database architecture project focused on schema design, integrity enforcement, indexing strategies, and query optimization.  
 → https://github.com/costakevinn/RetailSQL  
 
+**CVGit**  
+Résumé generator: experience, projects and skills are written once in YAML, validated and combined through base and per-job CV inheritance, then compiled from LaTeX into PDFs in two languages and two styles (ATS-friendly and designed), with Docker and unit tests.  
+→ https://github.com/costakevinn/CVGit  
+
 ---
 
 ## Core Competencies

@@ -20,5 +20,6 @@
   "XGBoost": "xgboost.png",
   "GitHub Actions": "github-actions.svg",
   "Claude": "claude.svg",
-  "Gmail": "gmail.svg"
+  "Gmail": "gmail.svg",
+  "LaTeX": "latex.svg"
 }
