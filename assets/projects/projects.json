@@ -254,6 +254,26 @@
         "category": "ml",
         "github-link": "https://github.com/costakevinn/ULBFraudXGB"
       }
+    },
+    {
+      "project-name": "CVGit",
+      "project-nickname": "cvgit",
+      "project-content": {
+        "description": "Résumé generator: experience, projects and skills are written once in YAML, validated and combined through base and per-job CV inheritance, then compiled from LaTeX into PDFs in two languages and two styles (ATS-friendly and designed), with Docker and unit tests.",
+        "techs": [
+          "Python",
+          "Docker",
+          "LaTeX"
+        ],
+        "skills": [
+          "Data Modeling",
+          "Data Validation",
+          "Data Pipeline Engineering",
+          "Automation"
+        ],
+        "github-link": "https://github.com/costakevinn/CVGit",
+        "category": "data"
+      }
     }
   ]
 }
