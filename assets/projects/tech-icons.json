@@ -21,5 +21,9 @@
   "GitHub Actions": "github-actions.svg",
   "Claude": "claude.svg",
   "Gmail": "gmail.svg",
-  "LaTeX": "latex.svg"
+  "LaTeX": "latex.svg",
+  "MLflow": "mlflow.svg",
+  "FastAPI": "fastapi.svg",
+  "Kafka": "kafka.svg",
+  "Airflow": "airflow.svg"
 }

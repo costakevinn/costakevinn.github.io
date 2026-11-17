@@ -52,6 +52,10 @@ End-to-end credit card fraud detection: layered SQL pipeline in DuckDB, XGBoost 
 
 ### Data & Analytics
 
+**EllipticPlatform**  
+End-to-end platform for illicit Bitcoin transaction detection: medallion layers with dbt and DuckDB, MLP and GraphSAGE models in PyTorch tracked in MLflow, FastAPI and PostgreSQL serving, a Kafka replay with verification, and an Airflow DAG running every stage in Docker.  
+→ https://github.com/costakevinn/EllipticPlatform  
+
 **HireLLMe**  
 LLM-powered job triage pipeline: collects job alerts from Gmail and the Gupy search into bronze, silver and gold layers, triages each opening with any LLM against a candidate profile, and delivers one email per job, scheduled on GitHub Actions with no-loss error handling.  
 → https://github.com/costakevinn/HireLLMe  

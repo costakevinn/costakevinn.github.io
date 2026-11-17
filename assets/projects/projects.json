@@ -1,6 +1,32 @@
 {
   "projects": [
     {
+      "project-name": "EllipticPlatform",
+      "project-nickname": "ellipticplatform",
+      "project-content": {
+        "description": "End-to-end platform for illicit Bitcoin transaction detection: medallion layers with dbt and DuckDB, MLP and GraphSAGE models in PyTorch tracked in MLflow, FastAPI and PostgreSQL serving, a Kafka replay with verification, and an Airflow DAG running every stage in Docker.",
+        "techs": [
+          "Python",
+          "PyTorch",
+          "DuckDB",
+          "MLflow",
+          "FastAPI",
+          "PostgreSQL",
+          "Kafka",
+          "Airflow",
+          "Docker"
+        ],
+        "skills": [
+          "Data Engineering",
+          "MLOps",
+          "Graph Neural Networks",
+          "Workflow Orchestration"
+        ],
+        "github-link": "https://github.com/costakevinn/EllipticPlatform",
+        "category": "data"
+      }
+    },
+    {
       "project-name": "HireLLMe",
       "project-nickname": "hirellme",
       "project-content": {
